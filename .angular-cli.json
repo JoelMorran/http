@@ -9,7 +9,8 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+        "favicon.ico", 
+        "api"
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -47,6 +48,7 @@
       "project": "e2e/tsconfig.e2e.json",
       "exclude": "**/node_modules/**"
     }
+
   ],
   "test": {
     "karma": {
